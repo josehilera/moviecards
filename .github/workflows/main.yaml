@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: empaquetado
-        run: echo "empaquetado"
+        run: echo "construcción"
 
   test:
     needs: build
