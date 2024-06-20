@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: empaquetado
+      - name: construccion
         run: echo "construcción"
 
   test:
