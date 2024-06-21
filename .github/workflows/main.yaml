@@ -60,7 +60,7 @@ jobs:
       - name: Ejecutar la aplicación para pruebas end to end
         run: mvn spring-boot:run & sleep 60
 
-      - name: Ejecutar las pruebas unitarias, de integrción y end to end
+      - name: Ejecutar las pruebas unitarias, de integración y end to end
         run: mvn clean verify
   
   qa:
