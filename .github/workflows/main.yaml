@@ -26,7 +26,6 @@ jobs:
           path: "${{ github.workspace }}/target/*.jar"
 
   test:
-    name: Test
     needs: build
     runs-on: ubuntu-latest
     steps:
@@ -64,7 +63,6 @@ jobs:
         run: mvn clean verify
   
   qa:
-    name: Control de calidad con Sonarqube
     needs: test
     runs-on: self-hosted
     continue-on-error: true
