@@ -85,7 +85,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    needs: qa
+    needs: test
     if: github.ref=='refs/heads/master'
     environment:
       name: 'Production'
