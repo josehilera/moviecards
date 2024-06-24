@@ -95,7 +95,7 @@ jobs:
         uses: trstringer/manual-approval@v1
         with:
           secret: ${{ secrets.TOKEN }}
-          approvers: jose.hilera
+          approvers: josehilera
 
       - name: Download artifact from build job
         uses: actions/download-artifact@v3
