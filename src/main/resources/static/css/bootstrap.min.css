@@ -85,6 +85,10 @@ body {
     -webkit-tap-highlight-color: transparent
 }
 
+.principal {
+    background-color: lightgray;
+}
+
 hr {
     margin: 1rem 0;
     color: inherit;
